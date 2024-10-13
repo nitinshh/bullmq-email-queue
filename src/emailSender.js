@@ -4,6 +4,6 @@ async function sendEmail({ to, subject, body }) {
     console.log(`Simulated email sent to ${to}`);
     console.log(`Subject: ${subject}`);
     console.log(`Body: ${body}`);
-  }
+}
   
-  module.exports = { sendEmail };
+module.exports = { sendEmail };

@@ -4,4 +4,4 @@ module.exports = {
       port: 6379,
     },
     queueName: 'email-queue'
-  };
+};
